@@ -1,0 +1,265 @@
+.container {
+    display: flex;
+    width: 980px;
+    height: 64px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #f5fcf9;
+}
+
+.group {
+    width: 19.999px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.items {
+    display: flex;
+    height: 56px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+.groupContainer {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.man {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
+
+.drop {
+    width: 24px;
+    height: 24px;
+}
+
+.notifyContainer {
+    display: flex;
+    align-items: center;
+}
+
+.notify {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bellIcon {
+    width: 18px;
+    height: 20.78px;
+    flex-shrink: 0;
+    fill: linear-gradient(0deg, rgba(0, 0, 0, 0.84) 0%, rgba(0, 0, 0, 0.84) 100%), #FFF;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -8;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(0deg, #EA7E7E 0%, #EA7E7E 100%), #FFF;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.calender {
+    display: flex;
+    height: 32px;
+    padding: 50px;
+    padding-bottom: 100px;
+    padding-left: 650px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f5fcf9;
+}
+
+.child {
+    border: 2px solid #02AB6C;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    width: 240px;
+}
+
+.calender>.child>select {
+    color: #02AB6C;
+    border: none;
+    appearance: none;
+}
+
+.calender>select>option {
+    color: #02AB6C;
+    background-color: #f5fcf9;
+    height: 20px;
+
+}
+
+.calenderDrop {
+    width: 22px;
+    height: 24px;
+    fill: rgba(0, 0, 0, 0.84);
+}
+
+.head{
+font-family: HelveticaNeue;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -3px;
+}
+
+.contri{
+    display: flex;
+width: 150px;
+height: 4px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+margin-left: 10px;
+color: rgba(0, 0, 0, 0.67);
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: italic;
+margin-top: -4px;
+font-weight: 275;
+}
+
+.mark{
+    width: 14px;
+height: 14px;
+flex-shrink: 0;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    margin-top: -60px;
+    width: 975px;
+    margin-left: 10px;
+}
+
+.children{
+    display: flex;
+    gap: 10px; 
+}
+
+.sibling{
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sibling:last-child{
+    flex: 1;
+    background-color: #4ec397;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+    border-left: 10px solid red;
+    width: 220px;
+    height: 70px;
+}
+
+.tgs{
+    color: red;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.inner2{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    border: 2px solid gold;
+    border-radius: 20px;
+    border-left: 10px solid gold;
+    width: 220px;
+    height: 70px;
+}
+
+.tgs2{
+    color: green;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.inner3{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    border: 2px solid green;
+    border-radius: 20px;
+    border-left: 10px solid green;
+    width: 220px;
+    height: 70px;
+}
+
+.tgs3{
+    color: red;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.head1{
+    color: #FFF;
+font-family: HelveticaNeue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+}
+
+.contri2{
+    color: rgba(255, 255, 255, 0.84);
+text-align: center;
+font-family: HelveticaNeue;
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -5  -px;
+}
+
+.chartContainer{
+    margin-top: 30px;
+    width: 960px;
+height: 540px;
+margin-left: 20px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #EBEBEB;
+background: #FFF;
+box-shadow: 0px 0.599px 5.32px 0px rgba(0, 0, 0, 0.01), 0px 2.01px 17.869px 0px rgba(0, 0, 0, 0.01), 0px 9px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.chart{
+    width: 979px;
+height: 458px;
+flex-shrink: 0;
+}
